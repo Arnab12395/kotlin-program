@@ -1,0 +1,9 @@
+fun main() {
+    print("Enter a string: ")
+    val userInput = readLine()
+    if (userInput != null) {
+        println("You entered: $userInput")
+    } else {
+        println("No input provided.")
+    }
+}
